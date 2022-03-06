@@ -13,6 +13,8 @@ instead of getting distracted by their fancy colorscheme.
 It's mostly only shades of grey and one main accent color, other accents are only used when it's necessary
 to make a difference (e.g diff files).
 
+**This colorscheme requires neovim 0.7+.**
+
 ## Disclaimer
 As of now, the shades of grey might be hard to read/differentiate.
 Please do open an issue/PR if you find it hard to read.

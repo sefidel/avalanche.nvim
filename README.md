@@ -14,7 +14,9 @@ It's mostly only shades of grey and one main accent color, other accents are onl
 to make a difference (e.g diff files).
 
 ## Disclaimer
-As of now the shades of grey might be hard to read/differentiate, please do open an issue/PR if you find it hard to read.
+As of now, the shades of grey might be hard to read/differentiate.
+Please do open an issue/PR if you find it hard to read.
+
 That being said, the 'day' variant is currently unimplemented.
 
 ## Usage
@@ -40,7 +42,7 @@ Lua:
 require("avalanche").apply()
 ```
 
-Note that lua version is an wrapper around `colorscheme avalanche`.
+Note that lua version is a wrapper around `colorscheme avalanche`.
 
 While this may make you think that avalanche supports Vim, it does not.
 Avalanche is made with lua and neovim-specific functions.

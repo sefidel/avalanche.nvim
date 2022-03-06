@@ -29,7 +29,7 @@ function M._init()
         vim.notify("Avalanche: variant set to day but background isn't light!", vim.log.levels.WARN)
     end
 
-    local colors = require("avalanche.colors").get(M.options.variant)
+    local colors = require("avalanche.colors").get(M.options.variant, M.options.transparent)
     local hi_groups = require("avalanche.highlights").get_hi_groups(colors)
 
     for group, spec in pairs(hi_groups) do

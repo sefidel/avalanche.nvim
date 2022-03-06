@@ -1,9 +1,9 @@
 local M = {}
 
-function M.get(variant)
+function M.get(variant, transparent)
     if variant == "night" then
         return {
-            bg = "#292929",
+            bg = transparent and "NONE" or "#292929",
             light_bg = "#383838",
             fg = "#c4c4c4",
             coal = "#545454",
@@ -23,7 +23,7 @@ function M.get(variant)
     elseif variant == "day" then
         error("Avalanche: this variant is unimplemented!")
         return {
-            bg = "",
+            bg = transparent and "NONE" or "",
             light_bg = "",
             fg = "",
             coal = "",

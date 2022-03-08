@@ -209,7 +209,7 @@ function M.get_hi_groups(colors)
         -- TSKeywordFunction    = { },
         -- TSLabel              = { },
         -- TSMethod             = { },
-        -- TSNamespace          = { },
+        TSNamespace          = { fg = colors.fg },
         TSNone               = { fg = colors.ash },
         -- TSNumber             = { },
         TSOperator           = { fg = colors.ash },

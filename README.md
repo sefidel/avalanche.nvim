@@ -6,6 +6,8 @@
 
 </div>
 
+![Avalanche Showcase](showcase.png)
+
 Avalanche is a colorscheme with shades of grey and few accent colors.
 Its purpose is to let the developers focus on the code itself by highlighting only the necessary parts,
 instead of getting distracted by their fancy colorscheme.
@@ -61,10 +63,7 @@ Avalanche is made with lua and neovim-specific functions.
 - `snow` - Builtin functions
 - `red` - Errors, Diff Delete
 - `red_bg` - Errors, Diff Delete
-- `yellow` - Warnings, Diff Change
-- `yellow_bg` - Diff Change
-- `green` - Diff Add
-- `green_bg` - Diff Add
+
 
 ## Shoutouts
 - Original colors from [limestone](https://github.com/tsbohc/.garden/blob/dee6f9565fc13925e5e3a5b7906b0c518517461e/tmp/limestone_old.lua)

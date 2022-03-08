@@ -49,6 +49,23 @@ Note that lua version is a wrapper around `colorscheme avalanche`.
 While this may make you think that avalanche supports Vim, it does not.
 Avalanche is made with lua and neovim-specific functions.
 
+## Colors
+- `bg` - Background
+- `fg` - Foreground
+- `light_bg` - Selection
+- `coal` - UI, NonText
+- `graphite` - UI, Rare syntax
+- `ash` - Main grey, UI, String, etc.
+- `accent` - Accent, function names, etc.
+- `accent_bg` - Menu selection
+- `snow` - Builtin functions
+- `red` - Errors, Diff Delete
+- `red_bg` - Errors, Diff Delete
+- `yellow` - Warnings, Diff Change
+- `yellow_bg` - Diff Change
+- `green` - Diff Add
+- `green_bg` - Diff Add
+
 ## Shoutouts
 - Original colors from [limestone](https://github.com/tsbohc/.garden/blob/dee6f9565fc13925e5e3a5b7906b0c518517461e/tmp/limestone_old.lua)
 - Core design from [sakura.nvim](https://github.com/numToStr/Sakura.nvim)

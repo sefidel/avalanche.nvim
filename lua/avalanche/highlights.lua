@@ -3,7 +3,7 @@ local M = {}
 function M.get_hi_groups(colors)
     return {
         -- Minimal
-        Comment           = { fg = colors.raven },
+        Comment           = { fg = colors.graphite },
         ColorColumn       = { fg = colors.ash },
         Conceal           = { fg = colors.light_bg },
         -- Cursor            = { },
@@ -21,15 +21,15 @@ function M.get_hi_groups(colors)
         -- TermCursor        = { },
         -- TermCursorNC      = { },
         ErrorMsg          = { fg = colors.red, bg = colors.red_bg, bold = true, underline = true },
-        VertSplit         = { fg = colors.raven },
+        VertSplit         = { fg = colors.graphite },
         Folded            = { fg = colors.ash },
         -- FoldColumn        = { },
         -- SignColumn        = { },
         IncSearch         = { fg = colors.bg, bg = colors.accent },
         -- Substitute        = { },
-        LineNr            = { fg = colors.raven },
+        LineNr            = { fg = colors.graphite },
         CursorLineNr      = { fg = colors.fg },
-        MatchParen        = { fg = colors.red, bg = colors.raven }, -- TODO: ash?
+        MatchParen        = { fg = colors.red, bg = colors.graphite }, -- TODO: ash?
         ModeMsg           = { fg = colors.coal },
         -- MsgArea           = { },
         -- MsgSeparator      = { },
@@ -54,7 +54,7 @@ function M.get_hi_groups(colors)
         StatusLineNC      = { fg = colors.fg, bg = colors.coal },
         TabLine           = { fg = colors.fg, bg = colors.graphite },
         TabLineFill       = { bg = colors.coal },
-        TabLineSel        = { fg = colors.accent, bg = colors.raven, bold = true },
+        TabLineSel        = { fg = colors.accent, bg = colors.graphite, bold = true },
         Title             = { fg = colors.accent },
         Visual            = { bg = colors.light_bg },
         -- VisualNOS         = { },

@@ -5,7 +5,7 @@ function M.get_hi_groups(colors)
         -- Minimal
         Comment           = { fg = colors.graphite },
         ColorColumn       = { fg = colors.ash },
-        Conceal           = { fg = colors.light_bg },
+        Conceal           = { fg = colors.coal },
         -- Cursor            = { },
         -- lCursor           = { },
         -- CursorIM          = { },

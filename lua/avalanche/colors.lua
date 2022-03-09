@@ -3,11 +3,11 @@ local M = {}
 function M.get(variant, transparent)
     if variant == "night" then
         return {
-            bg = transparent and "NONE" or "#292929",
-            light_bg = "#383838",
+            bg = transparent and "NONE" or "#232323",
+            light_bg = "#363636",
             fg = "#c4c4c4",
-            coal = "#545454",
-            graphite = "#737373",
+            coal = "#606060",
+            graphite = "#717171",
             ash = "#8c8c8c",
             accent = "#c2d6f0",
             accent_bg = "#30353b",

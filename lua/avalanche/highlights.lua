@@ -108,7 +108,7 @@ function M.get_hi_groups(colors)
         Macro             = { fg = colors.accent },
         -- PreCondit         = { },
 
-        Type              = { fg = colors.fg },
+        Type              = { fg = colors.ash },
         -- StorageClass      = { },
         -- Structure         = { },
         -- TypeDef           = { },
